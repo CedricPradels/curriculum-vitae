@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-![cv image](./documentation/cv.jpg)
+![cv image](./documentation/cv.png)
 
 ## Available Scripts
 

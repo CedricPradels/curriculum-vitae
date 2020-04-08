@@ -4,7 +4,7 @@ const cedricPradelsData = {
     prenom: "Pradels",
     adress: {
       line1: "12 rue du Compté",
-      line2: "78 660 Ablis"
+      line2: "78 660 Ablis",
     },
     age: "29",
     email: "cedric.pradels@gmail.com",
@@ -18,9 +18,9 @@ const cedricPradelsData = {
       "Sérieux",
       "Polyvalent",
       "Curieux",
-      "Aime apprendre"
+      "Aime apprendre",
     ],
-    hobbies: ["Badminton", "Course à pieds", "Coder"]
+    hobbies: ["Badminton", "Course à pieds", "Coder"],
   },
   categories: {
     experiences: [
@@ -31,8 +31,8 @@ const cedricPradelsData = {
           "Développement front et back d'un MVP d'application mobile en React Native au sein d'une equipe agile de 4 développeurs",
         year: {
           start: "2020",
-          end: "2020"
-        }
+          end: "2020",
+        },
       },
       {
         company: "Renault S.A.S.",
@@ -41,8 +41,8 @@ const cedricPradelsData = {
           "Développement de process robotisés et optiques innovants pour l'industrie automobile.",
         year: {
           start: "2016",
-          end: "2019"
-        }
+          end: "2019",
+        },
       },
       {
         company: "Akka",
@@ -51,8 +51,8 @@ const cedricPradelsData = {
           "Déploiement de projets process pour l'industrie automobile.",
         year: {
           start: "2014",
-          end: "2016"
-        }
+          end: "2016",
+        },
       },
       {
         company: "MTO",
@@ -60,8 +60,8 @@ const cedricPradelsData = {
         description: "Maintenance et recherche de pannes.",
         year: {
           start: "2013",
-          end: "2014"
-        }
+          end: "2014",
+        },
       },
       {
         company: "FTS",
@@ -69,9 +69,9 @@ const cedricPradelsData = {
         description: "Modélisation, dessin industriel et simulation robotique.",
         year: {
           start: "2012",
-          end: "2013"
-        }
-      }
+          end: "2013",
+        },
+      },
     ],
     formations: [
       {
@@ -81,7 +81,7 @@ const cedricPradelsData = {
         shortEntitled: "Développeur web et mobile",
         description:
           "Formation Javascript, Node, React et React Native. Realisation d'applications web et mobile, back et front.",
-        year: "2020"
+        year: "2020",
       },
       {
         title: "Licence professionnelle",
@@ -89,7 +89,7 @@ const cedricPradelsData = {
         entitled: "Robotique, conception et intégration des systèmes",
         shortEntitled: "RCIS",
         description: "",
-        year: "2012"
+        year: "2012",
       },
       {
         title: "Brevet de techicien supérieur",
@@ -97,7 +97,7 @@ const cedricPradelsData = {
         entitled: "Mécanique et automatismes industriels",
         shortEntitled: "MAI",
         description: "",
-        year: "2011"
+        year: "2011",
       },
       {
         title: "Baccalauréat professionnel",
@@ -105,8 +105,8 @@ const cedricPradelsData = {
         entitled: "Électrotechnique, énergie et équipements communicants",
         shortEntitled: "Électrotechnique",
         description: "",
-        year: "2009"
-      }
+        year: "2009",
+      },
     ],
     skills: [
       {
@@ -115,14 +115,14 @@ const cedricPradelsData = {
           {
             value: "Français",
             level: "Langue maternelle",
-            thumbnail: require("../images/fr.png")
+            thumbnail: require("../images/fr.png"),
           },
           {
             value: "Anglais",
             level: "Technique",
-            thumbnail: require("../images/en.png")
-          }
-        ]
+            thumbnail: require("../images/en.png"),
+          },
+        ],
       },
       {
         categorie: "Programmation",
@@ -133,15 +133,17 @@ const cedricPradelsData = {
           { value: "React", thumbnail: require("../images/react.png") },
           {
             value: "React Native",
-            thumbnail: require("../images/reactNative.png")
+            thumbnail: require("../images/reactNative.png"),
           },
           { value: "MongoDB", thumbnail: require("../images/mongo.png") },
           { value: "HTML", thumbnail: require("../images/html5.png") },
-          { value: "CSS", thumbnail: require("../images/css3.png") }
-        ]
-      }
-    ]
-  }
+          { value: "CSS", thumbnail: require("../images/css3.png") },
+          { value: "Typescript", thumbnail: require("../images/ts.png") },
+          { value: "Storybook", thumbnail: require("../images/storybook.png") },
+        ],
+      },
+    ],
+  },
 };
 
 export default cedricPradelsData;
