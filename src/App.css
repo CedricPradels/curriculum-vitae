@@ -25,7 +25,7 @@ body {
 }
 
 aside {
-  flex: 1;
+  width: 33%;
   display: flex;
   flex-direction: column;
   background-color: var(--color1);
@@ -34,7 +34,7 @@ aside {
 }
 
 main {
-  flex: 2;
+  width: 67%;
   background-color: var(--color2);
   padding: 35px 15px;
   display: flex;
@@ -71,7 +71,7 @@ main h3 {
 }
 
 main .twoColumns {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
 }

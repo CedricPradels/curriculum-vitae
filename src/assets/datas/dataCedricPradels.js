@@ -140,6 +140,15 @@ const cedricPradelsData = {
           { value: "CSS", thumbnail: require("../images/css3.png") },
           { value: "Typescript", thumbnail: require("../images/ts.png") },
           { value: "Storybook", thumbnail: require("../images/storybook.png") },
+          {
+            value: "Styled Components",
+            thumbnail: require("../images/styledComp.png"),
+          },
+          // PENDING
+          // { value: "Jest", thumbnail: require("../images/jest.png") },
+          // TODO
+          // { value: "Redux", thumbnail: require("../images/redux.png") },
+          // { value: "GraphQL", thumbnail: require("../images/graphql.png") },
         ],
       },
     ],
